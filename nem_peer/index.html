@@ -1,0 +1,133 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Astral by HTML5 UP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/fancy.css" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper-->
+			<div id="wrapper">
+
+				<!-- Nav -->
+					<nav id="nav">
+						<a href="#" class="icon fa-home"><span>Home</span></a>
+						<a href="#contact" class="icon fa-envelope"><span>Contact</span></a>
+						<a href="#chat" class="icon fa-comments" id="chaticon" ><span>Chatontact</span></a>
+
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- intro -->
+							<article id="home" class="panel intro">
+								<header>
+									<h1>nem peer</h1>
+									<p>Encrypted peer-2-peer chat and file sharing, secured by the nem blockchain.</p>
+								</header>
+								<a href="#contact" class="jumplink pic">
+									<span class="arrow icon fa-chevron-right"><span>See my work</span></span>
+									<img src="images/me.jpg" alt="" />
+								</a>
+							</article>
+
+
+				
+						<!-- chat -->
+						<article id="chat" class="panel">
+								<header>
+									<h2>Chat</h2>
+								</header>
+
+							
+								
+								<div id="wrap"><div id="connections"><span class="filler"><div class="loader"></div> Waiting for connection</span></div>
+								<div class="clear"></div></div>
+								<br>
+
+								<div class="col-6 col-12-medium">
+										<form id="send">
+												<input type="text" id="text" placeholder="Enter message"><br><br><input class="button" type="submit" value="Send to peers">
+												<input class="button" type="button" value="Connect" id="connect">
+											  </form>
+								</div>
+
+								
+								<div id="box" style="background: #fff; font-size: 18px;padding:40px 30px; text-align: center;">
+									Drag file here to send to active connections.
+								</div>
+
+								<div id="actions" hidden> <!-- hidden -->
+										Your PeerJS ID is <span id="pid"></span><br>
+										Connect to a peer: <input type="text" id="rid" placeholder="Someone else's id"><br><br>
+										
+
+										<button id="close">Close selected connections</button>
+										
+										
+								</div>
+									
+
+
+
+								
+						</article>
+
+
+						<!-- contact -->
+							<article id="contact" class="panel">
+								<header>
+									<h2>Start peer2peer</h2>
+								</header>
+
+								
+									<div>
+										<div class="row">
+										
+											<div class="col-12">
+												Private key with sufficient founds (testnet)
+												<form><input type="text" name="subject" id="privateKey" placeholder="private key" /></form>
+											</div>
+											<div class="col-12">
+												Address you want to invite to peer2peer (testnet)
+												<form><input type="text" name="subject" id="recipient" placeholder="nem address " value="testnet address" /></form>
+											</div>
+											<div class="col-12">
+												<button id="subChat" value="Send Message" >Execute</button>
+											</div>
+										</div>
+									</div>
+								
+							</article>
+
+
+
+					</div>
+
+				<!-- Footer -->
+					<div id="footer">
+						
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/peer.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/nem-sdk.js"></script>
+			<script src="assets/js/main.js"></script>		
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.2/rollups/aes.js"></script>
+
+	</body>
+</html>
