@@ -86,3 +86,5 @@ When the invited peer(s) are joining you will be able to chat and share files. A
 
 
 http://nempeer.bitballoon.com/
+
+`Currently Firefox 22+ and Google Chrome 26.0.1403.0 or above is required. Note that this demo may also fail if you are behind stringent firewalls or both you and the remote peer are behind symmetric NATs.`
